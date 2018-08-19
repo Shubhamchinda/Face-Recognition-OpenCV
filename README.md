@@ -1,3 +1,3 @@
 # Face-Recognition-OpenCV
-install flask and OpenCV
+Install flask and OpenCV
 Run main.py
