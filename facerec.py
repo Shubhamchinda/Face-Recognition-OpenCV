@@ -29,13 +29,8 @@ class VideoCamera(object):
                 sampleNum=sampleNum+1
                 #saving the captured face in the dataset folder
                 cv2.imwrite("dataset/User."+Id +'.'+ str(sampleNum) + ".jpg", gray[y:y+h,x:x+w])
-
-                cv2.imshow('frame',img)
             #wait for 100 miliseconds 
-            if cv2.waitKey(100) & 0xFF == ord('q'):
-                break
-            # break if the sample number is morethan 20
-            elif sampleNum>20:
+            if sampleNum>20:
                 break
         # We are using Motion JPEG, but OpenCV defaults to capture raw images,
         # so we must encode it into JPEG in order to correctly display the
