@@ -17,7 +17,7 @@
 		detection. In Haar-cascading the algorithm needs a lot of positive
 		images (images of faces) and negative images (images without faces) to train 
 		the classifier. Then we need to extract features from it. For
-		this, Haar features shown in the below image are used. They are just like our 
+		this, Haar features are used. They are just like our 
 		convolutional kernel.Each feature is a single value obtained by subtracting 
 		sum of pixels under the white rectangle from sum of 
 		pixels under the black rectangle.
@@ -29,7 +29,7 @@
 		- www.pythonprogramming.net
 		- https://github.com/log0/video_streaming_with_flask_example
 		
-**Step-Step Guide**
+**Step-by-Step Guide**
 
 	> I created a simple html page for the video stream.
 	
